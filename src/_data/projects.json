@@ -1,0 +1,62 @@
+[
+  {
+    "title": "EV Cherger Rental",
+    "image": "/projectImages/1.jpeg",
+    "image2": "/projectImages/javascript.jpeg",
+    "image3": "/projectImages/routes3.png",
+    "body": "EV Rental is an innovative platform connecting electric vehicle charger owners and renters. Owners list chargers for passive income and sustainable growth, while drivers find nearby chargers, easing range anxiety and boosting electric vehicle adoption. The secure platform emphasizes transparency through integrated payments and user reviews.",
+    "technologies": ["Sequelize.js", "SQLite", "Socket.io", "Express.js", "Node.js", "Amazon Web Services (AWS)"],
+    "github": "https://github.com/EV-Charger-Rental/EV-Charger-Rental-Backend ",
+    "deployed": "https://ev-rental.onrender.com",
+    "bgcolor": "#a1c3c9",
+    "id": "1"
+  },
+  {
+    "title": "Ticket Ease",
+    "image": "/projectImages/2.png",
+    "image2": "/projectImages/javascript.jpeg",
+    "image3": "/projectImages/weather3.png",
+    "technologies": ["React js", "Nod.js", "Express.js", "JavaScript","SQL","Bootstrap","MDB","Postgress"],
+    "body": "Is a customer service ticketing system aimed at improve the handling of customer inquiries and support requests and ensuring overall customer satisfaction.",
+    "github": " https://github.com/TicketEase",
+    "deployed": " https://luminous-mousse-880c5b.netlify.app/",
+    "bgcolor": "#fac273",
+    "id": "2"
+  },
+  {
+    "title": "Crypto-Ransomware Detection",
+    "image": "/projectImages/3.png",
+    "image2": "/projectImages/javascript.jpeg",
+    "image3": "/projectImages/team3.png",
+    "technologies": ["JavaScript", "Node", "Bootstrap", "Testing"],
+    "body": "Crypto-Ransomware Detection is a security system programmed by python, uses selective hashing method to detect ransomware encryption within few seconds and saving more than 90% of the user’s data.",
+    "deployed": "https://ieeexplore.ieee.org/abstract/document/9990424",
+    "bgcolor": "#dfa0fa",
+    "id": "3"
+  },
+  {
+    "title": "Reading Notes",
+    "image": "/projectImages/workplanner.jpeg",
+    "image2": "/projectImages/javascript.jpeg",
+    "image3": "/projectImages/quiz3.png",
+    "technologies": ["Git"],
+    "body": "This repository compiles reading notes, assigned resources, and videos for the javaScript course. Each module's page contains topic relevance, answered prompts, and potential questions. It serves as an organized resource for comprehensive learning.",
+    "github": "https://natali-alkayed.github.io/reading-notes/",
+    "deployed": "https://natali-alkayed.github.io/reading-notes/",
+    "bgcolor": "#faefe8",
+    "id": "4"
+  },
+
+  {
+    "title": "Frontend Mentor",
+    "image": "/projectImages/4.jpeg",
+    "image2": "/projectImages/f1.jpeg",
+    "image3": "/projectImages/p13.png",
+    "body": "Front-End coding challenges on Frontend Mentor website",
+    "technologies": ["HTML", "CSS"],
+    "github": "https://www.frontendmentor.io/profile/natali-alkayed",
+    "deployed": "https://www.frontendmentor.io/profile/natali-alkayed",
+    "bgcolor": "#facca0",
+    "id": "5"
+  }
+]

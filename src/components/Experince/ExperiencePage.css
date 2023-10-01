@@ -1,0 +1,252 @@
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply the animation to the timeline items */
+.timeline-item {
+  position: relative;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  opacity: 0; /* Start with opacity 0 */
+  transform: translateY(10px); /* Start with a slight vertical translation */
+  animation: fadeIn 0.5s ease-out forwards; /* Apply the animation */
+}
+
+.timeline {
+  position: relative;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: flex-start;
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeIn 0.5s ease-out forwards;
+}/* ExperiencePage.css */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* Updated CSS */
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.timeline-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.timeline-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.timeline-date {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.timeline-position {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.timeline-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  margin-left: 20px; /* Adjust the margin to create space between content and image */
+}
+
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.timeline-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.timeline-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.timeline-date {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.timeline-position {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.highlight {
+  background-color: #fff;
+  color:var(--hl-color);
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+/* Apply the animation to the timeline items */
+.timeline-item {
+  position: relative;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  opacity: 0; /* Start with opacity 0 */
+  transform: translateY(10px); /* Start with a slight vertical translation */
+  animation: fadeIn 0.5s ease-out forwards; /* Apply the animation */
+}
+
+.timeline {
+  position: relative;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: flex-start;
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+.timeline-content {
+  flex-grow: 1;
+  display: flex; /* Added to make items align horizontally */
+  align-items: flex-start;
+}
+
+
+
+
+
+/* Timeline container */
+.timeline-container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+/* Timeline item */
+.timeline-item {
+  position: relative;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+
+/* Timeline icon container */
+.timeline-icon {
+  width: 50px;
+  height: 50px;
+  background-color: var(--hl-color);
+  border-radius: 50%; /* Make it a circle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+/* Timeline icon image */
+
+.timeline-icon img {
+  width: 50px; /* Increase the width as needed */
+  height: 50px; /* Increase the height as needed */
+  border-radius: 50%; /* Make it a circle */
+  overflow: hidden;
+}
+
+/* Timeline content */
+.timeline-content {
+  padding: 15px;
+  border: 2px solid var(--hl-color);
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 2;
+  margin-left: 20px;
+}
+
+/* Timeline item title */
+.timeline-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #c21010;
+}
+
+
+
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .timeline-item {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .timeline-content {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+.experience-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+

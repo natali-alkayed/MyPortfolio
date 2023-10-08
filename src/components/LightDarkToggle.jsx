@@ -33,7 +33,18 @@ const LightDarkToggle = () => {
   // Apply the selected mode's colors using CSS custom properties
   useEffect(() => {
     const colors = !islightMode
-      ? {
+      ?  {
+        // Light Colors
+        "--bg-color": "#131a22",
+        "--bg2-color": "#232f3e19",
+        "--hl-color": "#e47911",
+        "--hl2-color": "white",
+        "--text-color": "white",
+        "--secondary-text-color": "white",
+        "--grey": "#9f9f9f76",
+      }
+      :  
+      {
         // Dark Colors
         "--bg-color": "#101010",
         "--bg2-color": "#121212",
@@ -42,18 +53,8 @@ const LightDarkToggle = () => {
         "--text-color": "#e47911",
         "--secondary-text-color": "white",
         "--grey": "#9f9f9f76",
-      }
-      :   
-        {
-          // Light Colors
-          "--bg-color": "#131a22",
-          "--bg2-color": "#232f3e19",
-          "--hl-color": "#e47911",
-          "--hl2-color": "white",
-          "--text-color": "white",
-          "--secondary-text-color": "white",
-          "--grey": "#9f9f9f76",
-        };
+      } ;
+      
 
     for (const property in colors) {
       const value = colors[property];
